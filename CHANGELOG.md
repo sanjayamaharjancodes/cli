@@ -1,5 +1,14 @@
 # Changelog
 
+## [12.0.3](https://github.com/npm/cli/compare/v12.0.2...v12.0.3) (2026-08-12)
+### Bug Fixes
+* [`51c2bf8`](https://github.com/npm/cli/commit/51c2bf81fa2c31547d0fec44fff2aaac3d9a9862) [#9864](https://github.com/npm/cli/pull/9864) don't print the funding message for global installs (#9864) (@lazerg)
+### Documentation
+* [`bea9066`](https://github.com/npm/cli/commit/bea9066c7d1fe09d6475bbe391f28116aa6a83a6) [#9838](https://github.com/npm/cli/pull/9838) document npm 12 install script blocking (#9838) (@reggi)
+### Chores
+* [`4cdccea`](https://github.com/npm/cli/commit/4cdcceac047f82571d0ec734e18b87d1d130e042) [#9836](https://github.com/npm/cli/pull/9836) update `node-integration` workflow template to latest actions (#9836) (@MikeMcC399)
+* [`278df04`](https://github.com/npm/cli/commit/278df04d3f25d391af3213a243bb9f89e1d11899) [#9822](https://github.com/npm/cli/pull/9822) pass nodedir to node-gyp via npm_package_config env in node integration (#9822) (@reggi, @Copilot)
+
 ## [12.0.2](https://github.com/npm/cli/compare/v12.0.1...v12.0.2) (2026-07-27)
 ### Bug Fixes
 * [`834408e`](https://github.com/npm/cli/commit/834408e8f0f2295d02205d8ff5d011c859835225) [#9760](https://github.com/npm/cli/pull/9760) pack: honor min-release-age-exclude (#9760) (@martinrrm, @Copilot)
